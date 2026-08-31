@@ -105,14 +105,6 @@ pygame
 - Training reward/success rate is still fluctuating at the end of the run rather than clearly converged; "best" checkpoint is selected by a noisy rolling average, not a stable plateau.
 - The GUI can produce unsolvable maps with no warning, since it skips the solvability check used during training.
 
-## Possible extensions
-
-- Log and plot reward/success-rate curves during training
-- Add Double DQN to reduce Q-value overestimation
-- Curriculum learning: start with 0 obstacles, increase difficulty as success rate improves
-- Replace the hard target-network sync with Polyak averaging
-- Run the solvability check in the GUI before starting a simulation
-
 ## Relevance to real-world navigation
 
 This is a discrete, fully-observable, static 10x10 grid — it is a conceptual testbed, not a deployable navigation stack. The gap to a real robot is large: no continuous state/action space, no sensor noise, no localization uncertainty, no dynamic obstacles, no physical motion constraints (acceleration, turning radius, collision margins), and no sim-to-real transfer step. None of that is solved here.
