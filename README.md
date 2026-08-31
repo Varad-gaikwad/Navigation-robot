@@ -85,8 +85,21 @@ Opens a map editor: click to place the start cell, up to 3 goals, and obstacles,
 Note: the GUI builds its obstacle grid directly from your clicks and does not run the BFS solvability check that `environment.py` uses during training — you can hand it a map with no valid path and it won't warn you.
 
 ## Results
+ - TRAINING
+   <img width="1212" height="408" alt="Screenshot 2026-08-30 at 11 36 37 PM" src="https://github.com/user-attachments/assets/efdba0d6-a58a-4c1b-9383-e492e9653f43" />
 
-<!-- Add training curves, test success rate output, and simulation screenshots/GIFs here. -->
+   -TEST SIMULATION
+   <img width="1176" height="238" alt="Screenshot 2026-08-30 at 11 36 57 PM" src="https://github.com/user-attachments/assets/492fd06a-b6ef-4bcc-88a9-a3a6aee7c6bd" />
+
+   -SIMULATION
+<img width="908" height="631" alt="Screenshot 2026-08-30 at 11 37 41 PM" src="https://github.com/user-attachments/assets/5547d96c-e8d1-4cf7-96e4-1d808d303a87" />
+<img width="908" height="631" alt="Screenshot 2026-08-30 at 11 37 59 PM" src="https://github.com/user-attachments/assets/6dbc4b32-8314-40de-ab61-bbb5bcea075b" />
+<img width="908" height="631" alt="Screenshot 2026-08-30 at 11 38 09 PM" src="https://github.com/user-attachments/assets/6f1a1d66-82f5-4589-ac3b-1d1069ce073d" />
+
+
+
+
+
 
 ## Requirements
 
